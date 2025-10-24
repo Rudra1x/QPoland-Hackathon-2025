@@ -1,0 +1,160 @@
+# ================================================================================
+# COMPREHENSIVE REQUIREMENTS FOR QUANTUM-CLASSICAL HYBRID ML PROJECT
+# ================================================================================
+# This file ensures seamless execution of the quantum-hybrid financial prediction model
+# Compatible with Python 3.8+ environments
+# Last updated: October 2024
+
+# ================================================================================
+# CORE DATA SCIENCE LIBRARIES
+# ================================================================================
+
+# Data manipulation and numerical computing
+pandas>=1.5.0,<2.1.0          # DataFrame operations and CSV handling
+numpy>=1.21.0,<1.25.0         # Numerical arrays and mathematical operations
+scipy>=1.9.0,<1.12.0          # Scientific computing utilities
+
+# Machine Learning and Statistics
+scikit-learn>=1.1.0,<1.4.0    # Classical ML algorithms, preprocessing, metrics
+statsmodels>=0.13.0,<0.15.0   # Statistical analysis and time series
+
+# ================================================================================
+# DEEP LEARNING FRAMEWORK
+# ================================================================================
+
+# PyTorch ecosystem for neural networks
+torch>=1.12.0,<2.1.0          # Core PyTorch framework for LSTM and neural networks
+torchvision>=0.13.0,<0.16.0   # Computer vision utilities (dependency)
+torchaudio>=0.12.0,<0.15.0    # Audio processing utilities (dependency)
+
+# ================================================================================
+# QUANTUM COMPUTING STACK
+# ================================================================================
+
+# Core Qiskit framework
+qiskit>=0.44.0,<0.46.0        # Main quantum computing framework
+qiskit-aer>=0.12.0,<0.14.0    # High-performance quantum simulators
+qiskit-algorithms>=0.2.0,<0.3.0  # Quantum algorithms library
+
+# Quantum Machine Learning
+qiskit-machine-learning>=0.6.0,<0.8.0  # Quantum ML algorithms and PyTorch integration
+
+# Quantum optimization and additional tools
+qiskit-optimization>=0.5.0,<0.7.0     # Quantum optimization algorithms
+qiskit-nature>=0.6.0,<0.8.0           # Quantum chemistry and physics
+qiskit-finance>=0.3.0,<0.5.0          # Financial optimization algorithms
+
+# ================================================================================
+# VISUALIZATION AND PLOTTING
+# ================================================================================
+
+# Static plotting
+matplotlib>=3.5.0,<3.8.0      # Core plotting library
+seaborn>=0.11.0,<0.13.0       # Statistical data visualization
+
+# Interactive plotting
+plotly>=5.10.0,<5.18.0         # Interactive plots and dashboards
+ipywidgets>=7.7.0,<8.1.0       # Jupyter notebook widgets
+
+# Quantum circuit visualization
+pylatexenc>=2.10,<2.18         # LaTeX encoding for circuit diagrams
+
+# ================================================================================
+# JUPYTER NOTEBOOK ENVIRONMENT
+# ================================================================================
+
+# Core Jupyter infrastructure
+jupyter>=1.0.0,<1.1.0         # Jupyter notebook metapackage
+jupyterlab>=3.4.0,<4.1.0      # JupyterLab interface
+notebook>=6.4.0,<7.1.0        # Classic Jupyter notebook
+ipython>=7.31.0,<8.18.0       # Interactive Python shell
+
+# Notebook extensions and utilities
+nbformat>=5.4.0,<5.10.0       # Notebook format handling
+ipykernel>=6.15.0,<6.26.0     # IPython kernel for Jupyter
+
+# ================================================================================
+# DEVELOPMENT AND UTILITY LIBRARIES
+# ================================================================================
+
+# Code quality and formatting
+black>=22.0.0,<23.10.0        # Code formatter
+flake8>=4.0.0,<6.2.0          # Linting
+mypy>=0.950,<1.7.0            # Static type checking
+
+# Testing framework
+pytest>=7.1.0,<7.5.0          # Testing framework
+pytest-cov>=3.0.0,<4.2.0     # Coverage reporting
+
+# Performance and optimization
+numba>=0.56.0,<0.59.0         # JIT compilation for numerical functions
+joblib>=1.1.0,<1.4.0          # Parallel computing utilities
+
+# ================================================================================
+# SYSTEM AND COMPATIBILITY LIBRARIES
+# ================================================================================
+
+# System utilities
+psutil>=5.9.0,<5.10.0         # System and process utilities
+tqdm>=4.64.0,<4.67.0          # Progress bars
+python-dateutil>=2.8.0,<2.9.0 # Date parsing utilities
+
+# Cryptography and security (required by quantum libraries)
+cryptography>=3.4.8,<41.1.0   # Cryptographic functions
+pycryptodome>=3.15.0,<3.19.0  # Additional cryptographic algorithms
+
+# Mathematical libraries
+sympy>=1.10.0,<1.13.0         # Symbolic mathematics
+networkx>=2.8.0,<3.3.0        # Graph theory algorithms
+
+# ================================================================================
+# FINANCIAL DATA AND TIME SERIES
+# ================================================================================
+
+# Financial data handling
+yfinance>=0.1.74,<0.2.19      # Yahoo Finance data download
+alpha-vantage>=2.3.0,<2.4.0   # Alpha Vantage API client
+pandas-datareader>=0.10.0,<0.11.0  # Financial data readers
+
+# Time series analysis
+prophet>=1.1.0,<1.2.0         # Facebook Prophet for forecasting
+ta-lib>=0.4.25,<0.5.0         # Technical analysis library
+
+# ================================================================================
+# OPTIONAL PERFORMANCE ACCELERATORS
+# ================================================================================
+
+# GPU acceleration (optional - uncomment if CUDA available)
+# torch-audio>=0.12.0,<0.15.0
+# cupy-cuda11x>=11.0.0,<12.0.0  # GPU arrays (CUDA 11.x)
+# cudf>=22.08.0,<23.11.0        # GPU DataFrames
+
+# ================================================================================
+# VERSION CONSTRAINTS AND COMPATIBILITY NOTES
+# ================================================================================
+
+# Python version requirement: >=3.8,<3.12
+# Tested on: Python 3.9.x and Python 3.10.x
+# 
+# COMPATIBILITY NOTES:
+# - Qiskit requires numpy<1.25 for stability
+# - PyTorch 2.0+ provides better performance but ensure CUDA compatibility
+# - Some quantum simulators may require additional C++ runtime libraries
+# - For Apple Silicon (M1/M2), use conda-forge channel for better compatibility
+# 
+# INSTALLATION COMMANDS:
+# pip install -r requirements.txt
+# 
+# FOR CONDA USERS:
+# conda create -n quantum-ml python=3.10
+# conda activate quantum-ml
+# pip install -r requirements.txt
+# 
+# FOR DEVELOPMENT SETUP:
+# pip install -r requirements.txt
+# pip install -e .  # If you have a setup.py
+#
+# TROUBLESHOOTING:
+# - If installation fails, try updating pip: python -m pip install --upgrade pip
+# - For quantum circuit visualization issues, install: pip install pylatexenc
+# - For CUDA support, install appropriate PyTorch version from pytorch.org
