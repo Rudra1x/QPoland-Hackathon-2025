@@ -20,7 +20,7 @@ Lower MSE and higher R$^2$ indicate better performance.
 
 ## Objectives
 
-- Predict the missing Close values in `X_test.xlsx` using quantum machine learning.
+- Predict the missing Close values in `X_test.csv` using quantum machine learning.
 
 ## Installation 
 The code can be run on both linux and window system. 
