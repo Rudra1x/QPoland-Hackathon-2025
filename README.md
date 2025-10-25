@@ -14,9 +14,9 @@ Lower MSE and higher R$^2$ indicate better performance.
 
 | File | Description | 
 |-----------|-----------|
-| `X_train.xlsx` | Historical stock index data from January 1 to August 31, 2025. Includes: Date, Open, High, Low, Close, Volume. | 
-| `X_test.xlsx` | Data for the next 10 trading days (starting September 1, 2025). Includes all columns except Close, which you must predict. | 
-| `predictions.csv` | You will submit this file with your predicted Close values for each date in `X_test.xlsx`. | 
+| `X_train.csv` | Historical stock index data from January 1 to August 31, 2025. Includes: Date, Open, High, Low, Close, Volume. | 
+| `X_test.csv` | Data for the next 10 trading days (starting September 1, 2025). Includes all columns except Close, which you must predict. | 
+| `predictions.csv` | You will submit this file with your predicted Close values for each date in `X_test.csv`. | 
 
 ## Objectives
 
