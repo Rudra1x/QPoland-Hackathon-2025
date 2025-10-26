@@ -1,4 +1,5 @@
 # Hybrid Classical-Quantum Neural Network for Financial Stock Market Prediction
+## Team - Beerantum [ Van Binh VU & Rudraksh Sharma ]
 
 Our task is to build a Hybrid Quantum-Classical Recurrent Neural Network that predicts future stock index closing prices
 based on historical data.  This model 
@@ -9,7 +10,7 @@ model's feature-learning capabilities.
 The predictions will be evaluated using:
 - Mean Squared Error (MSE):
 - R^2 Score (Coefficient of Determination):
-Lower MSE and higher R$^2$ indicate better performance.
+Lower MSE and higher R^2 indicate better performance.
 ## Datasets
 
 | File | Description | 
@@ -17,8 +18,6 @@ Lower MSE and higher R$^2$ indicate better performance.
 | `X_train.csv` | Historical stock index data from January 1 to August 31, 2025. Includes: Date, Open, High, Low, Close, Volume. | 
 | `X_test.csv` | Data for the next 10 trading days (starting September 1, 2025). Includes all columns except Close, which you must predict. | 
 | `predictions.csv` | You will submit this file with your predicted Close values for each date in `X_test.csv`. | 
-
-# 🚀 Quantum Residual Correction (QRC) LSTM for Stock Price Forecasting 🚀
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Framework: PyTorch](https://img.shields.io/badge/Framework-PyTorch-orange.svg)](https://pytorch.org/)
@@ -42,6 +41,12 @@ This allows the classical model to do the "heavy lifting" while the quantum mode
 
 
 ---
+Structure
+----Hybrid Model
+---------Model1
+---------Model2
+----Requirement.txt
+----Final Project Report
 
 ## 🔬 The Models
 
