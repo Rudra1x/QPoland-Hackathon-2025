@@ -111,6 +111,9 @@ Our hybrid model demonstrates strong predictive capability, achieving an **R-squ
 ## Model 1 <img width="1193" height="1590" alt="model1" src="https://github.com/user-attachments/assets/64974f3c-e424-4f25-a778-7a6cd69fbb4a" />
 ## Model 2 <img width="1248" height="1590" alt="model2" src="https://github.com/user-attachments/assets/906e43e6-3ae7-43cd-a145-9774c62c3599" />
 
+## Presentation
+
+Here is the presentation recording video: [Watch on YouTube](https://www.youtube.com/watch?v=YcH2vylausM)
 
 ## 🚀 How to Run
 
