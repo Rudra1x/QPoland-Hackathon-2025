@@ -111,6 +111,7 @@ Get up and running in a few simple steps.
 This project requires Python and the following libraries:
 ```bash
 pip install pandas numpy torch scikit-learn qiskit qiskit-machine-learning matplotlib seaborn jupyter
+````
 
 ## Objectives
 
