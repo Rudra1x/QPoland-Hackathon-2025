@@ -23,8 +23,11 @@ Lower MSE and higher R^2 indicate better performance.
 [![Framework: PyTorch](https://img.shields.io/badge/Framework-PyTorch-orange.svg)](https://pytorch.org/)
 [![Framework: Qiskit](https://img.shields.io/badge/Framework-Qiskit-blue.svg)](https://qiskit.org/)
 
-Welcome to our hackathon project! This repository contains a novel hybrid Quantum-Classical model for time-series forecasting, specifically designed to predict stock prices with higher accuracy by using a quantum circuit to correct classical errors.
+## Objectives
 
+This repository contains a novel hybrid Quantum-Classical model for time-series forecasting, specifically designed to predict stock prices (the missing Close values in `X_test.csv`) with higher accuracy by using a quantum circuit to correct classical errors.
+
+  
 ---
 
 ## 💡 The Core Idea: Quantum Residual Correction
@@ -105,19 +108,6 @@ Our hybrid model demonstrates strong predictive capability, achieving an **R-squ
 
 ## 🚀 How to Run
 
-Get up and running in a few simple steps.
-
-**1. Install Requirements**
-This project requires Python and the following libraries:
-```bash
-pip install pandas numpy torch scikit-learn qiskit qiskit-machine-learning matplotlib seaborn jupyter
-````
-
-## Objectives
-
-- Predict the missing Close values in `X_test.csv` using quantum machine learning.
-
-## Installation 
 The code can be run on both linux and window system. 
 
 The working envirement and required packages can be installed with python 3.10 as following
