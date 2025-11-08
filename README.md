@@ -1,5 +1,4 @@
 # Hybrid Classical-Quantum Neural Network for Financial Stock Market Prediction
-## Team - Beerantum [ Van Binh VU & Rudraksh Sharma ]
 
 Our task is to build a Hybrid Quantum-Classical Recurrent Neural Network that predicts future stock index closing prices
 based on historical data.  This model 
